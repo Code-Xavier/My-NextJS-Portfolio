@@ -6,9 +6,12 @@ import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './Techn
 const Technologies = () =>  (
   <Section id='tech'>
     <SectionDivider />
-    <SectionTitle>Technologies</SectionTitle>
+    <br />
+    <br />
+    <SectionTitle>Technologies 🎺</SectionTitle>
+    <br />
     <SectionText>
-      I've worked with a range of technologies in the web development world, building apps with both Front-End and Back-End technologies
+      I am a JavaScript developer - I use JavaScript across the stack in the front and back end of all my desktop, mobile, or web applications.
     </SectionText>
     <List>
       <ListItem>
@@ -17,9 +20,10 @@ const Technologies = () =>  (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experience with: <br />
-            React.js<br />
-            Next.js<br />
-            Tailwind/SCSS
+            React <br />
+            Typescript<br />
+            Tailwind/Bootstrap 
+            
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -29,9 +33,9 @@ const Technologies = () =>  (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with: <br />
-            Node & Express<br />
+            Node <br />
             MongoDB<br />
-            Parse Server
+            Parse Server 
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -41,7 +45,6 @@ const Technologies = () =>  (
           <ListTitle>Tools</ListTitle>
           <ListParagraph>
             Experience with: <br />
-            Typescript<br />
             Figma (UI/UX) <br />
           </ListParagraph>
         </ListContainer>

@@ -10,24 +10,24 @@ const Header = () =>  (
     <Div1>
       <Link href='/'>
         <a style={{display: 'flex', alignItems: 'center', color: 'white', marginBottom: '20;'}}>
-          <GiMusicSpell size='3rem' /> <Span>The Musical Coder</Span>
+          {/*<GiMusicSpell size='3rem' /> */} <Span>The Musical Coder 🎼</Span>
         </a>
       </Link>
     </Div1>
     <Div2>
       <li>
         <Link href='#projects'>
-          <NavLink>Projects</NavLink>
+          <NavLink>Projects 🎷</NavLink>
         </Link>
       </li>
       <li>
         <Link href='#tech'>
-          <NavLink>Technologies</NavLink>
+          <NavLink>Technologies 🎺</NavLink>
         </Link>
       </li>
       <li>
         <Link href='#about'>
-          <NavLink>About</NavLink>
+          <NavLink>About 🪕</NavLink>
         </Link>
       </li>
     </Div2>

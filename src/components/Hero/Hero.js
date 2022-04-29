@@ -14,7 +14,7 @@ const Hero = (props) => (
      <SectionText>
        I'm a software developer👨🏾‍💻 that combines the love of code 💻 with the love of music 🎸 in his daily routine. This portfolio is the love child of my two passions in life - Oh and of course also a place for displaying my web development skills 🤹🏾 to, you know, get a job!
      </SectionText>
-     <Button onClick={() => window.location = '#footer'}>Contact Me</Button>
+     <Button onClick={() => window.location = '#about'}>Contact Me 📱</Button>
 
    </LeftSection>
  </Section>
