@@ -37,6 +37,7 @@ const Projects = () => (
               <Hr />
             </TitleContent>
             <CardInfo className="card-info">{p.description}</CardInfo>
+            <br />
             <div>
               <TitleContent>Stack</TitleContent>
               <TagList>
