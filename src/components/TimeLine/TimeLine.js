@@ -46,7 +46,7 @@ const Timeline = () => {
     <Section id='about'>
       <SectionTitle>About Me 🪕</SectionTitle>
       <SectionText>
-        I didn't grow up thinking i'd be a software developer 👨🏾‍💻 one day. I always thought i'd be a doctor 👨🏾‍⚕️ of some kind - had the grades for it too and all 🤓. It was in my second year of pre-med that the pandemic 😷 struck, and in the existential crisis that followed I shifted gears and chose the path that I'm on now - and I've never looked back 🦾
+        I didn't grow up thinking i'd be a software developer 👨🏾‍💻 one day. I always thought i'd be a doctor 👨🏾‍⚕️ of some kind - had the grades for it too and all 🤓. It was in my second year of pre-med that the pandemic 😷 struck, and in the existential crisis that followed I shifted gears and chose the path that I'm on now - and I've never looked back!
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

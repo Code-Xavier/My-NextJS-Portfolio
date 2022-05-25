@@ -1,8 +1,8 @@
 export default {
   // Temp fonts
   fonts: {
-    title:  'Patrick Hand, cursive',
-    main:  'Patrick Hand, cursive',
+    title: "'Fredoka One', cursive;",
+    main: "'Fredoka One', cursive;"
   },
   // Colors for layout
   colors: {

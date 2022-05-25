@@ -5,13 +5,13 @@ import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './Techn
 
 const Technologies = () =>  (
   <Section id='tech'>
-    <SectionDivider />
+    {/* <SectionDivider /> */}
     <br />
     <br />
     <SectionTitle>Technologies 🎺</SectionTitle>
     <br />
     <SectionText>
-      I am a JavaScript developer - I use JavaScript across the stack in the front and back end of all my desktop, mobile, or web applications.
+      I use JavaScript across the stack in the front and back end of all my desktop, mobile, or web applications. It just works!
     </SectionText>
     <List>
       <ListItem>
@@ -20,9 +20,12 @@ const Technologies = () =>  (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experience with: <br />
-            React <br />
-            Typescript<br />
-            Tailwind/Bootstrap 
+             HTML/CSS<br />
+             Tailwind<br />
+             Bootstrap<br />
+             React<br />
+             Material UI
+             
             
           </ListParagraph>
         </ListContainer>
@@ -33,7 +36,9 @@ const Technologies = () =>  (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with: <br />
-            Node <br />
+            Node/Express <br />
+            Sanity<br />
+            Firebase<br />
             MongoDB<br />
             Parse Server 
           </ListParagraph>

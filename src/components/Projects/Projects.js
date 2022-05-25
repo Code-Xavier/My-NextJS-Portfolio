@@ -1,47 +1,57 @@
+// import React from 'react';
+// import Gallery from './gallery';
+
+// import { GridContainer } from './ProjectsStyles';
+// import { Section, SectionTitle } from '../../styles/GlobalComponents';
+
+
+// //seperating logic & content is important --> hence the constants
+
+// const Projects = () => (
+//   <Section nopadding id='projects'>
+//     <SectionTitle main> Projects 🎸</SectionTitle> 
+//       <GridContainer>
+
+//       </GridContainer>
+//   </Section>
+// );
+
+// export default Projects;
+
 import React from 'react';
 
 import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
-import { FaGuitar } from "react-icons/fa";
-
-//seperating logic & content is important --> hence the constants
 
 const Projects = () => (
-  <Section nopadding id='projects'>
-    <SectionDivider />
-    <SectionTitle main>Learning Projects 🎷</SectionTitle>
+  <Section nopadding id="projects">
+    <SectionTitle main>Projects</SectionTitle>
     <GridContainer>
-      {/* Here, destructering is used to not have to repeat projects.xxxx again and again */}
-      {projects.map(({ id, image, title, description, tags, source, visit, tutorial}) => (
-        <BlogCard key={id}>
-          <Img src={image} />
-          <TitleContent>
-            <HeaderThree title>{title}</HeaderThree>
-            <br />
-            <FaGuitar size='3rem' />
-            <br />
-            <br />
-          </TitleContent>
-          <CardInfo>{description}</CardInfo>
-          <br />
-          <br />
-          <div>
-            <TitleContent>Stack</TitleContent>
-            <br />
-            <TagList>
-              {tags.map((tag, i) => (
-                <Tag key={i}>{tag}</Tag>
-              ))}
-            </TagList>
-          </div>
-          <UtilityList>
-            <ExternalLinks href={visit}>View</ExternalLinks>
-            <ExternalLinks href={tutorial}>Tutorial</ExternalLinks>
-            <ExternalLinks href={source}>GitHub</ExternalLinks>
-          </UtilityList>
-        </BlogCard>
-      ) )}
+      {projects.map((p, i) => {
+        return (
+          <BlogCard key={i}>
+          <Img src={p.image} />
+            <TitleContent>
+              <HeaderThree title>{p.title}</HeaderThree>
+              <Hr />
+            </TitleContent>
+            <CardInfo className="card-info">{p.description}</CardInfo>
+            <div>
+              <TitleContent>Stack</TitleContent>
+              <TagList>
+                {p.tags.map((t, i) => {
+                  return <Tag key={i}>{t}</Tag>;
+                })}
+              </TagList>
+            </div>
+            <UtilityList>
+              <ExternalLinks href={p.visit}>Code</ExternalLinks>
+              <ExternalLinks href={p.source}>Source</ExternalLinks>
+            </UtilityList>
+          </BlogCard>
+        );
+      })}
     </GridContainer>
   </Section>
 );
