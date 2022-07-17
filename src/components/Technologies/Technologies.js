@@ -11,7 +11,7 @@ const Technologies = () =>  (
     <SectionTitle>Technologies 🎺</SectionTitle>
     <br />
     <SectionText>
-      I use JavaScript across the stack in the front and back end of all my desktop, mobile, or web applications. It just works!
+      There are the technologies I have either already learned, or that I am learning cuurently by building projects that utitlize them: 
     </SectionText>
     <List>
       <ListItem>
@@ -19,11 +19,12 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            Experience with: <br />
              HTML/CSS<br />
-             Tailwind<br />
-             Bootstrap<br />
-             React<br />
+             Markdown<br/>
+             Bootstrap/Tailwind<br />
+             JavaScript<br/>
+             React/Redux<br />
+             NextJS/Gatsby<br />
              Material UI
              
             
@@ -35,12 +36,12 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
-            Experience with: <br />
-            Node/Express <br />
-            Sanity<br />
-            Firebase<br />
+            Node <br />
+            Express<br />
             MongoDB<br />
-            Parse Server 
+            Mongoose<br />
+            REST APIs<br/>
+            Auth0<br />
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -49,8 +50,9 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Tools</ListTitle>
           <ListParagraph>
-            Experience with: <br />
             Figma (UI/UX) <br />
+            WordPress <br />
+            Sanity.io
           </ListParagraph>
         </ListContainer>
       </ListItem>

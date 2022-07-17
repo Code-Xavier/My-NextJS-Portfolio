@@ -15,30 +15,30 @@ export const projects = [
     image: '/images/mcfantasy.png',
     tags: ['HTML', 'CSS'],
     source: 'https://github.com/Code-Xavier/mcfantasy-2-',
-    visit: 'https://mcfantasy.online',
+    visit: 'https://mcfantasy.vercel.app/',
     tutorial: '#',
     id: 1,
   },
-  // {
-  //   title: 'Back2Eden Web Services',
-  //   description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur",
-  //   image: '/images/coming-soon.jpg',
-  //   tags: ['Next', 'Tailwind', ],
-  //   source: '#',
-  //   visit: '#',
-  //   tutorial: '#',
-  //   id: 1,
-  // },
-  // {
-  //   title: 'CSRKit',
-  //   description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur",
-  //   image: '/images/coming-soon.jpg',
-  //   tags: ['Next', 'Tailwind', 'MongoDB', 'Parse'],
-  //   source: '#',
-  //   visit: '#',
-  //   tutorial: '#',
-  //   id: 1,
-  // },
+  {
+    title: 'html/css demo portfolio',
+    description:"I created this portfolio when I was learning JavaScript and just wanted to practice combining my new JavaScript skills with my HTML and CSS skills. It's nothing fancy, but was the first time I really incorporated DOM manipulation using JavaScript into a real-world project.",
+    image: '/images/demo.png',
+    tags: ['HTML', 'CSS', ],
+    source: 'https://github.com/Code-Xavier/journey-portfolio-final',
+    visit: 'https://journey-portfolio-final.vercel.app/',
+    tutorial: '#',
+    id: 1,
+  },
+  {
+    title: 'digital business card',
+    description:"This was my first solo React project - I was given a Figma design file by the React course i'm following, and told to figure out how to create something akin to that using the React I had already learned, and the css skills I already had, and this was the result. ",
+    image: '/images/bcard.png',
+    tags: ['React', 'JavaScript', 'CSS'],
+    source: 'https://github.com/Code-Xavier/business-card',
+    visit: 'https://xavier-digital-business-card.vercel.app/',
+    tutorial: '#',
+    id: 1,
+  },
   
   // {
   //   title: 'MERN Memories',
@@ -68,6 +68,6 @@ export const projects = [
 export const TimeLineData = [
   { year: 2022, text: 'January: Started learning HTML/CSS', },
   { year: 2022, text: 'March: Started Learning Javascript', },
-  { year: 2022, text: 'April: Started learning React/Material UI', },
-  { year: 2022, text: 'May: Started building my first React apps', }
+  { year: 2022, text: 'June: Started learning React/Material UI', },
+  { year: 2022, text: 'July: Started building my first React apps', }
 ];

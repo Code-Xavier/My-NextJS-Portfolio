@@ -1,8 +1,8 @@
 export default {
   // Temp fonts
   fonts: {
-    title: "'Fredoka One', cursive;",
-    main: "'Fredoka One', cursive;"
+    title: "Rubik, sans-serif",
+    main: "Rubik, sans-serif",
   },
   // Colors for layout
   colors: {
